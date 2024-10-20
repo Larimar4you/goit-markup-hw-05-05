@@ -610,3 +610,15 @@ margin-bottom: 8px;
 margin-bottom: 16px;
 }
 
+.form-lable {
+display: block;
+width: 100%;
+border-radius: 4px;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.7;
+letter-spacing: 0.04em;
+color: #8e8f99;
+margin-bottom: 4px;
+}
+
