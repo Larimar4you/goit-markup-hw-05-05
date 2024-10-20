@@ -448,8 +448,32 @@ background-color: #31d0aa;
 fill:#f4f4fd
 }
 
-.backdrop-subscribe-box {
+.subscribe-box {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
 display: flex;
 justify-content: flex-start;
 flex-direction: column;
+}
+
+.subscribe-form {
+display: flex; 
+flex-direction: row;  
+gap: 24px;
+}
+
+.subscribe-text {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #fff;
+margin-bottom: 16px;
+}
+
+.subscribe-email {
+
 }
