@@ -623,7 +623,8 @@ margin-bottom: 4px;
 }
 
 .form-input {
-border: 1px solid rgba(46, 47, 66, 0.4);
+border: 1px solid; 
+border-color: rgba(46, 47, 66, 0.4);
 border-radius: 4px;
 font-weight: 400;
 font-size: 12px;
@@ -632,9 +633,9 @@ letter-spacing: 0.04em;
 background-color: transparent;
 width: 100px;
 height: 40px;
-padding-left: 40px;
+padding-left: 38px;
 outline: transparent;
-transition: border-color 250ms,
+transition: border-color 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
