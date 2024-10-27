@@ -452,7 +452,7 @@ fill:#f4f4fd
 display: flex;
 justify-content: flex-start;
 flex-direction: column;
-margin-left: 80px;
+margin-left: auto;
 }
 
 .subscribe-form {
